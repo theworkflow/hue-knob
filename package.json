@@ -1,0 +1,27 @@
+{
+  "name": "hue-knob",
+  "version": "0.1.0",
+  "description": "IoT sensor to adjust hue lights brightness",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hue",
+    "lights",
+    "iot",
+    "philips",
+    "sensor",
+    "rotary",
+    "angle"
+  ],
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.79.0",
+    "jsupm_grove": "1.0.0-src"
+  },
+  "engines": {
+    "node": ">4"
+  }
+}
